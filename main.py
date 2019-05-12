@@ -75,6 +75,7 @@ def get_predict_salary(salary_from, salary_to):
         return salary_to * 0.8
     else:
         average_salary = (salary_from + salary_to) / 2
+        return average_salary
 
 
 def get_predict_rub_salary_hh(vacancy):
