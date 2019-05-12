@@ -24,7 +24,7 @@ def get_data_on_vacancies_hh(language):
         page += 1
         for vacancy in page_data['items']:
             vacancies.append(vacancy)
-        print('Скачали страницу hh.ru' + str(page), 'Язык ' + language)
+        print('Скачали страницу hh.ru ' + str(page), 'Язык ' + language)
 
     return vacancies
 
@@ -47,7 +47,7 @@ def get_data_on_vacancies_sj(language):
         page += 1
         for vacancy in page_data['objects']:
             vacancies.append(vacancy)
-        print('Скачали страницу superjob.ru' + str(page), 'Язык ' + language)
+        print('Скачали страницу superjob.ru ' + str(page), 'Язык ' + language)
 
     return vacancies
 
